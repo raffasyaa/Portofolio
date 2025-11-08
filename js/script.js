@@ -124,11 +124,12 @@ document.addEventListener('DOMContentLoaded', () => {
             nav.classList.remove('active');
         }
     });
-// --- Blokir Klik Kanan (Context Menu) ---
-document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-    // Opsional: tampilkan pesan peringatan
-    alert("Mau tau aja, atau mau tau bangeeeet?."); 
-});
+    
+    // 🔥 --- KODE PEMBLOKIRAN KLIK KANAN YANG DIPINDAH KE DALAM SCOPE ---
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        alert("Mau tau aja, atau mau tau bangeeeet?."); 
+    });
+    // 🔥 --- END PEMBLOKIRAN KLIK KANAN ---
 
-});
+}); // <-- Penutup tunggal yang benar
