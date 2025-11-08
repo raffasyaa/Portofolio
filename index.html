@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="/img/profile.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo" data-aos="fade-right">
+                <a href="#">𝗣𝗥𝗢𝗙𝗜𝗟𝗘</a>
+            </h1>
+            
+            <nav class="nav">
+                <ul class="nav-list" data-aos="fade-down" data-aos-delay="300">
+                    <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Keahlian</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portofolio</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-image-wrapper" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="img/profile.png" alt="SaputraTech" class="profile-img">
+                    </div>
+                    <div class="hero-text">
+                        <p class="greeting" data-aos="fade-up" data-aos-delay="200">Assalamualaikum, saya</p>
+                        <h2 class="name" data-aos="fade-up" data-aos-delay="300">Ganesha Saputra</h2>
+                        <h3 class="tagline" data-aos="fade-up" data-aos-delay="400">Pengembang Web <span class="highlight">Frontend</span></h3>
+                        <p class="description" data-aos="fade-up" data-aos-delay="500">
+                            Focus on creating interactive and responsive user interfaces, turning creative ideas into stunning digital experiences.
+                        </p>
+                        <div class="social-links" data-aos="fade-up" data-aos-delay="600">
+                            <a href="https://github.com/saputratech" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://instagram.com/saputratech" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:admin@skartistore.my.id" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        <a href="#portfolio" class="btn btn-primary" data-aos="fade-up" data-aos-delay="700">Lihat Portofolio Saya</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-down">About Me</h2>
+                <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+                    <p>
+                        I'm a passionate front-end web developer with over 3 years of experience building engaging and functional websites and web applications. I'm skilled in HTML, CSS, JavaScript, python.node, and modern frameworks like React.
+                    </p>
+                    <p>My job is to build websites so that they are functional and user friendly but at the same time attractive. Apart from that, I also created several application products to hone my skills.</p>
+                   
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-down">Skill</h2>
+                <div class="skills-grid">
+                    <div class="skill-item" data-aos="flip-left" data-aos-delay="100">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-item" data-aos="flip-left" data-aos-delay="200">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-item" data-aos="flip-left" data-aos-delay="300">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-item" data-aos="flip-left" data-aos-delay="400">
+                        <i class="fab fa-react"></i> 
+                        <h3>React.js</h3>
+                    </div>
+                    <div class="skill-item" data-aos="flip-left" data-aos-delay="500">
+                        <i class="fab fa-node-js"></i> 
+                        <h3>Node.js</h3>
+                    </div>
+                    <div class="skill-item" data-aos="flip-left" data-aos-delay="600">
+                        <i class="fab fa-python"></i> 
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-item" data-aos="flip-left" data-aos-delay="700">
+                        <i class="fab fa-git-alt"></i>
+                        <h3>Git & GitHub</h3>
+                    </div>
+                    <div class="skill-item" data-aos="flip-left" data-aos-delay="800">
+                        <i class="fas fa-drafting-compass"></i>
+                        <h3>UI/UX Design</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section section-padding">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-down">Portofolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-aos="fade-up">
+                        <img src="img/vpn.jpg" alt="Proyek 1" class="portfolio-img">
+                        <h3>Application VPN for android</h3>
+                        <p>Create a VPN application that connects quickly to the server network and is very easy to use.</p>
+                        <div class="project-links">
+                            <a href="img/vpn.apk" download="skartivpn.apk" class="btn btn-sm">Download APK <i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="img/script.jpg" alt="Proyek 2" class="portfolio-img">
+                        <h3>Script Tunneling</h3>
+                        <p>an automated script that initiates a secure connection via a tunneling protocol to redirect or hide internet traffic.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/SaputraTech/SKT-AIO-FREE" target="_blank" class="btn btn-sm">Lihat Demo <i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/SaputraTech/SKT-AIO-FREE" target="_blank" class="btn btn-sm">Kode <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <img src="img/web.jpg" alt="Proyek 3" class="portfolio-img">
+                        <h3>Stock Management Application</h3>
+                        <p>Stock management and inter-location transfer application project for uniform business. which uses Firebase technology.</p>
+                        <div class="project-links">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright &copy; 2025 profile.saputratech.web.id</p>
+        </div>
+    </footer>
+
+    <div class="theme-switch-wrapper floating-switch">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" aria-label="Toggle Dark Mode" />
+            <div class="slider round">
+                <i class="fas fa-sun light-icon"></i> 
+                <i class="fas fa-moon dark-icon"></i>
+            </div>
+        </label>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
